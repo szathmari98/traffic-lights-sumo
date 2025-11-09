@@ -57,8 +57,11 @@ Cooperative Controller (cooperative_lights_v3.py)
 ## References
 
 Li, L. et al., Traffic Signal Timing via Deep Reinforcement Learning, IEEE/CAA Journal of Automatica Sinica, 2016.
+
 Badii, C. et al., Sii-Mobility: An IoT/IoE Architecture to Enhance Smart City Mobility and Transportation Services, Sensors, 2019.
+
 BKK Budapest, Hogyan és milyen forgalmi adatokat gyűjt a BKK, 2023.
 
 
 Feel free to reuse and modify.
+
