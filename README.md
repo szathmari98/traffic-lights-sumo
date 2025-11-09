@@ -16,3 +16,15 @@ All three scripts are standalone, readable, and tuned for clarity + reproducibil
   - Set `SUMO_HOME` and ensure `sumo` is on PATH.
 - **Python 3.9+**
 - `traci` (provided by SUMO; alternatively `pip install traci`)
+
+Controllers – parameters & logic
+1) adaptive_lights.py
+
+Idea: if avg_queue > UPPER_THRESHOLD → increase green (INCREMENT),
+if < LOWER_THRESHOLD → decrease green (DECREMENT).
+
+Periodic reset to base durations (RESET_INTERVAL) to avoid drift.
+
+Bounds: MIN_GREEN … MAX_GREEN.
+
+Key params:
