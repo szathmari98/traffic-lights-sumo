@@ -17,7 +17,7 @@ All three scripts are standalone, readable, and tuned for clarity + reproducibil
 - **Python 3.9+**
 - `traci` (provided by SUMO; alternatively `pip install traci`)
 
-Controllers – parameters & logic
+## Controllers – parameters & logic
 Key params:
 
 | Parameter     | Default | Description                  |
@@ -54,4 +54,11 @@ Cooperative Controller (cooperative_lights_v3.py)
 | `LOW/HIGH_LOAD_CUTOFF` | 1.0 / 5.0 | Activation thresholds                   |
 | `UPDATE_PERIOD`        | 2.0 s     | Minimum delay between two updates       |
 
+## References
 
+Li, L. et al., Traffic Signal Timing via Deep Reinforcement Learning, IEEE/CAA Journal of Automatica Sinica, 2016.
+Badii, C. et al., Sii-Mobility: An IoT/IoE Architecture to Enhance Smart City Mobility and Transportation Services, Sensors, 2019.
+BKK Budapest, Hogyan és milyen forgalmi adatokat gyűjt a BKK, 2023.
+
+
+Feel free to reuse and modify.
