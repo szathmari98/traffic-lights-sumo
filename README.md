@@ -1,4 +1,4 @@
-# SUMO Traffic Light Controllers – Adaptive • Predictive • Cooperative
+# SUMO Traffic Light Controllers – Adaptive • Predictive • Cooperative - project work for thesis
 
 This repository contains three simple, production-ready traffic light controllers for **SUMO** using **TraCI**:
 
@@ -64,4 +64,5 @@ BKK Budapest, Hogyan és milyen forgalmi adatokat gyűjt a BKK, 2023.
 
 
 Feel free to reuse and modify.
+
 
